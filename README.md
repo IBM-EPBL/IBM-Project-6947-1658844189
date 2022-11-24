@@ -1,13 +1,13 @@
 # IBM-Project-6947-1658844189
 A Novel Method for Handwritten Digit Recognition System
-#Team Members :
+# Team Members :
 Hariharan C.A-2019105012
 Navaneetha Krishnan R-2019105551
 Rakshith T N-2019105561
 Srinivasan B-2019105581
-#Category :
+# Category :
 Artificial Intelligence
-#Project Description :
+# Project Description :
 Handwriting recognition is one of the compelling research works going on because every individual in this world has
 their own style of writing. It is the capability of the computer to identify and understand handwritten digits or
 characters automatically. Because of the progress in the field of science and technology, everything is being
