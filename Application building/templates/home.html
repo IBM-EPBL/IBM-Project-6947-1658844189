@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>HandWritten Digit Recognition WebApp</title>
+  <h3><center>PNT2022TMID35498</center></h3>
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+</style>
+
+</head>
+
+<script>
+  function preview() {
+    frame.src=URL.createObjectURL(event.target.files[0]);
+}
+</script>
+
+<body>
+  <section align='center'>
+  <h1 class="welcome">Handwritten Digit Recognition
+  </h1>
+  </section>
+  
+  <section id="title">
+    <h4 class="heading">Handwritten Digit Recognition Web Application</h4>
+    <br><br>
+      <p>
+        The website is designed to predict the handwritten digit.
+      </p>
+    <p>
+      <br>
+
+  </section>
+
+  <section id="content" align='center'>
+
+        <div class="leftside">
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+        <label>Select a image:</label>
+        <input id="image" type="file" name="image" accept="image/png, image/jpeg" onchange="preview()"><br><br>
+          <img id="frame"  width="200px" height="200px"/>
+          <div class="buttons_div">
+            <button type="submit" class="btn btn-dark" id="predict_button">Predict Number</button>
+          </div>
+        </form>
+        </div>
+  </section>
+
+</body>
+
+</html>
