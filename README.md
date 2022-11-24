@@ -2,8 +2,11 @@
 A Novel Method for Handwritten Digit Recognition System
 # Team Members :
 Hariharan C.A-2019105012
+
 Navaneetha Krishnan R-2019105551
+
 Rakshith T N-2019105561
+
 Srinivasan B-2019105581
 # Category :
 Artificial Intelligence
